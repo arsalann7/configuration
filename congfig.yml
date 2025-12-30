@@ -4,7 +4,17 @@ server:
 
 spring:
   datasource:
-  url: jdbc:postgresql://localhost:5050/Invitations?currentSchema=invites
+  url: jdbc:postgresql://localhost:5050/Invitations
   username: postgres
   password: admin
   driver-class-name: org.postgresql.Driver
+
+
+
+jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
