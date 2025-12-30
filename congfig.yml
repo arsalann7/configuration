@@ -1,17 +1,14 @@
 server:
   port: 9022
-  address: 127.0.0.1
 
 spring:
   datasource:
-  url: jdbc:postgresql://localhost:5050/Invitations
-  username: postgres
-  password: admin
-  driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5050/Invitations
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
 
-
-
-jpa:
+  jpa:
     hibernate:
       ddl-auto: validate
     show-sql: true
