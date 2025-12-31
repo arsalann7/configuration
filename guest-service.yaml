@@ -3,7 +3,7 @@
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5050/Invitations
+    url: jdbc:postgresql://localhost:5432/Invitations
     username: postgres
     password: admin
     driver-class-name: org.postgresql.Driver
