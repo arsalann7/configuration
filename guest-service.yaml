@@ -1,7 +1,9 @@
-# server:
-#   port: 9022
+server:
+  port: 9022
 
 spring:
+  application:
+    name: guest-service
   datasource:
     url: jdbc:postgresql://localhost:5432/Invitations
     username: postgres
@@ -15,3 +17,4 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+        
